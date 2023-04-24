@@ -1,0 +1,8 @@
+{
+    "java.project.referencedLibraries": [
+        "lib/**/*.jar",
+        "c:\\Program Files\\Java\\jdk-11.0.16.1\\lib\\ojdbc11.jar",
+        "JAVA_project.jar"
+    ],
+    "java.project.outputPath": "lib"
+}
