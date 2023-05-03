@@ -4,6 +4,7 @@ import java.io.InputStream;
 import java.util.Properties;
 import java.sql.*;
 
+// table names : USERS, LOGIN_CREDENTIALS
 public class database {
   public static void main(String[] args) throws SQLException {
     Properties props = new Properties();
