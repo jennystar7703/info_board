@@ -1,0 +1,16 @@
+<!-- database.html -->
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset="UTF-8">
+    <title>Database Results</title>
+</head>
+<body>
+<h1>Database Results</h1>
+<ul>
+    <li th:each="user : ${users}">
+        <span th:text="${user.name}"></span>
+    </li>
+</ul>
+</body>
+</html>
