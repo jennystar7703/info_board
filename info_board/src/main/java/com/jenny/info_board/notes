@@ -1,0 +1,41 @@
+Main.java: This is a Java class representing the entity or model.
+It typically includes attributes that define the properties, such as name, address, contact information, etc.
+This class is used to create instances and store/retrieve their data.
+
+MainController.java: This is a Spring controller class responsible for handling HTTP requests related to Main.
+It receives requests from clients, interacts with the corresponding Service, and returns appropriate responses.
+
+MainService.java: This is a service class that contains the business logic for handling operations
+related to Main. It encapsulates the functionality required to process main-related requests
+received from the Controller. The Service class typically interacts with the Repository to perform data access
+and manipulation operations. It may include methods for validating data, performing complex operations involving
+multiple entities, and applying rules specific to main.
+
+MainRepository.java: This interface or class represents the data access layer responsible for
+interacting with the underlying database or data source to perform CRUD (Create, Read, Update, Delete)
+operations related to main. It defines methods for storing/retrieving data, querying the database,
+and executing data manipulation operations. Spring provides various implementations for this interface,
+such as JPA (Java Persistence API) repositories or JDBC-based repositories,
+which abstract away the low-level details of database access.
+
+config - class which will read from property files
+
+cache - caching mechanism class files
+
+constants - constant defined class
+
+controller - controller class
+
+exception - exception class
+
+model - pojos classes will be present
+
+security - security classes
+
+service - Impl classes
+
+util - utility classes
+
+validation - validators classes
+
+bootloader - main class
